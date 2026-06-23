@@ -44,6 +44,7 @@
         linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
       background-size: 42px 42px;
+      -webkit-mask-image: radial-gradient(circle, black 0%, transparent 78%);
       mask-image: radial-gradient(circle, black 0%, transparent 78%);
       animation: drift 18s linear infinite;
     }
@@ -100,8 +101,8 @@
       display: block;
       color: transparent;
       background: linear-gradient(90deg, var(--aqua), var(--gold), var(--rose));
-      background-clip: text;
       -webkit-background-clip: text;
+      background-clip: text;
     }
 
     p {
